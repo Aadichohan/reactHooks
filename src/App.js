@@ -3,6 +3,7 @@ import './App.css';
 import Index from './useCallback/Index';
 import Effect from './useEffect/Effect';
 import Reducer from './UseReducer/Reducer';
+import Memo from './useMemo/Memo';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Index />
       <Effect />
       <Reducer />
+      <Memo />
     </div>
   );
 }

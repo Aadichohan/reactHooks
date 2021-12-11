@@ -1,5 +1,6 @@
 import React,{useEffect, useState} from 'react'
 import Effect2 from './Effect2';
+import Effect3 from './Effect3';
 
 export default function Effect() {
     const [Count, setCount] = useState(0)
@@ -16,7 +17,9 @@ export default function Effect() {
             <button onClick={()=> setCount(Count + 1)}>Click Me</button>
          </div>
             <br/>
-            <Effect2 />
+            <Effect2 />           
+            <br/>
+            <Effect3 />
             <hr/>
         </>
     )
